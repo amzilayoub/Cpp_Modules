@@ -1,0 +1,22 @@
+# include "PlasmaRifle.hpp"
+# include "PowerFist.hpp"
+# include "Enemy.hpp"
+# include "SuperMutant.hpp"
+# include "RadScorpion.hpp"
+# include "Character.hpp"
+
+int	main()
+{
+	PlasmaRifle pr;
+	PowerFist pf;
+	Enemy en;
+	RadScorpion rs;
+	RadScorpion rs2;
+	SuperMutant sm1;
+	SuperMutant sm2;
+	Character ch("hello");
+
+	std::cout << ch << std::endl;
+	rs = rs2;
+	sm1 = sm2;
+}
